@@ -1,0 +1,10 @@
+x=c(17,6,20,24,22,15,21,18)
+x[x>=20]
+y<-rep(0,length(x))
+for(i in 1:length(x)){
+       if(x[i]>= 20){
+    y[i]=100
+        }else if(x[i]<20){
+    y[i]=x[i]
+  }
+}
